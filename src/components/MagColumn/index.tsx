@@ -13,7 +13,7 @@ import PostSkeleton from "../PostCard/Skeleton"
 
 
 export default function MagColumn() {
-  const SKATEHIVE_TAG = [{ tag: "hive-173115", limit: 100 }]
+  const SKATEHIVE_TAG = [{ tag: "hive-141964", limit: 100 }]
   const [tag, setTag] = useState(SKATEHIVE_TAG)
   const [query, setQuery] = useState("created")
   const { posts, error, isLoading, setQueryCategory, setDiscussionQuery } = usePosts(query, tag)

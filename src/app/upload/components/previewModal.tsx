@@ -91,7 +91,7 @@ const PreviewModal: React.FC<PreviewModalProps> = ({ isOpen, onClose, title, bod
                 username: user.name,
                 title: title,
                 body: body,
-                parent_perm: "hive-173115",
+                parent_perm: "hive-141964",
                 json_metadata: JSON.stringify({ format: "markdown", description: AiSummary, tags: tags }),
                 permlink: permlink,
                 comment_options: JSON.stringify({

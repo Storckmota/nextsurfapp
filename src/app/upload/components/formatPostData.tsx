@@ -33,7 +33,7 @@ export const createPostOperation = (user: any, permlink: string, title: string, 
     'comment',
     {
         parent_author: '',
-        parent_permlink: 'hive-173115',
+        parent_permlink: 'hive-141964',
         author: user.name,
         permlink: permlink,
         title: title,
