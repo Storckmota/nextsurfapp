@@ -74,8 +74,8 @@ const UploadImageButton: React.FC = () => {
                 icon={hiveUser ? <GiVideoCamera color="white" size={45} /> : <SlLogin color="white" size={45} />}
                 isRound
                 size="lg"
-                bg="blue"
-                _hover={{ bg: 'blue', transform: 'scale(1.1)', transition: '0.3s' }}
+                bg="black"
+                _hover={{ bg: 'black', transform: 'scale(1.1)', transition: '0.3s' }}
                 color="white"
             />
         </>

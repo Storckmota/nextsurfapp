@@ -134,7 +134,7 @@ const CreateProposalConfirmationModal: React.FC<CreateProposalConfirmationModalP
                         </ReactMarkdown>
                     </ModalBody>
                     <ModalFooter>
-                        <Button colorScheme="blue" mr={3} onClick={handleCreateProposal}>
+                        <Button colorScheme="black" mr={3} onClick={handleCreateProposal}>
                             Confirm
                         </Button>
                         <Button colorScheme="green" mr={3} onClick={onClose}>

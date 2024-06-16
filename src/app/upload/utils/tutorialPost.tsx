@@ -3,13 +3,13 @@ const tutorialPost = `# Tutorial
 ![Image](https://ipfs.skatehive.app/ipfs/QmYkb6yq2nXSccdMwmyNWXND8T1exqUW1uUiMAQcV4nfVP?pinataGatewayToken=nxHSFa1jQsiF7IHeXWH-gXCY3LDLlZ7Run3aZXZc8DRCfQz4J4a94z9DmVftXyFE)
 
 
-Write your article here, you can use markdown and html for it. If you never done that, read that post on the right and pay attention how is it made in the left blue side. After that, you can erase everything our use that template and the toolbar above to help. 
+Write your article here, you can use markdown and html for it. If you never done that, read that post on the right and pay attention how is it made in the left black side. After that, you can erase everything our use that template and the toolbar above to help. 
 
 > Complete [Upload/Markdown guide](https://docs.skatehive.app/docs/tutorial-basics/share-ur-content)
 
 ---
 
-#### You can upload videos/images by dragging then here at the blue prompt, our clicking in the yellow image icon above
+#### You can upload videos/images by dragging then here at the black prompt, our clicking in the yellow image icon above
 
 ---
 

@@ -408,7 +408,7 @@ export default function Upload() {
                             onClick={() => handlePost()}
                             isDisabled={isUploading}
                             w={"100%"}
-                            colorScheme="blue"
+                            colorScheme="black"
                             variant={"outline"}
 
                         >

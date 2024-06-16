@@ -107,7 +107,7 @@ const EthBox: React.FC<EthBoxProps> = ({ onNetWorthChange }) => {
             p={4}
             border="1px solid #0fb9fc"
             borderRadius="10px"
-            bg="blue.800"
+            bg="black.800"
             m={2}
 
         >
@@ -135,7 +135,7 @@ const EthBox: React.FC<EthBoxProps> = ({ onNetWorthChange }) => {
                     borderTopRadius={10}
                     mb={-6}
                     justifyContent="center"
-                    bg="blue.900"
+                    bg="black.900"
                 >
                     <Avatar
                         boxSize="48px"

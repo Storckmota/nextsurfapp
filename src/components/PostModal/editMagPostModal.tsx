@@ -179,7 +179,7 @@ export const EditModal = ({ isOpen, onClose, post, username }: editModalProps) =
         <Modal isOpen={isOpen} onClose={onClose} size={{ base: "lg", md: "2xl", lg: "6xl" }} >
             <ModalOverlay />
             {isPreview ? (
-                <ModalContent bg={'white'} border={"1px solid blue"}>
+                <ModalContent bg={'white'} border={"1px solid black"}>
                     <ModalHeader>
                         <Center>Edit Preview</Center>
                     </ModalHeader>
@@ -225,7 +225,7 @@ export const EditModal = ({ isOpen, onClose, post, username }: editModalProps) =
                         </HStack>
                     </ModalBody>
                     <ModalFooter>
-                        <Button onClick={handlePreview} colorScheme="blue">
+                        <Button onClick={handlePreview} colorScheme="black">
                             Edit
                         </Button>
                         <Button onClick={onClose} colorScheme="red">
@@ -234,7 +234,7 @@ export const EditModal = ({ isOpen, onClose, post, username }: editModalProps) =
                     </ModalFooter>
                 </ModalContent>
             ) : (
-                <ModalContent bg={'white'} border={"1px solid blue"}>
+                <ModalContent bg={'white'} border={"1px solid black"}>
                     <ModalHeader>
                         <Center>Edit</Center>
                     </ModalHeader>

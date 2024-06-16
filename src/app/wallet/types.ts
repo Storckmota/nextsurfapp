@@ -53,7 +53,7 @@ export const blockchainDictionary: Record<string, BlockchainInfo> = {
         logo: "/logos/arbitrum_logo.png",
     },
     base: {
-        color: "blue.200",
+        color: "black.200",
         logo: "/logos/base_logo.png",
     },
     "binance-smart-chain": {

@@ -39,9 +39,9 @@ export default function ProfileHeader({ user }: ProfileProps) {
         alt={"Profile thumbnail"}
         loading="lazy"
         mt={5}
-        border={"1px solid blue"}
+        border={"1px solid black"}
       />
-      <Center border={"3px solid blue"} borderRadius={7} mt={'-80px'}>
+      <Center border={"3px solid black"} borderRadius={7} mt={'-80px'}>
         <AuthorAvatar
           username={user.name}
           borderRadius={4}

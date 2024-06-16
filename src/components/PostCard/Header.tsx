@@ -128,7 +128,7 @@ export default function Header({ variant = "preview" }: HeaderInterface) {
           </Link>
           <Flex flexDir="column" gap={0} w={"100%"}>
             <Flex gap={1} alignItems="center">
-              <Text color="blue" fontSize="14px" as="b">
+              <Text color="black" fontSize="14px" as="b">
                 {post.author}
               </Text>
               <Text fontSize="14px" color="darkgray">

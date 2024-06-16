@@ -147,7 +147,7 @@ function LoginModal({
               <Button
                 w={"100%"}
                 onClick={() => window.open("https://hiveonboard.com/create-account")}
-                colorScheme="blue"
+                colorScheme="black"
                 variant={"outline"}
 
               >

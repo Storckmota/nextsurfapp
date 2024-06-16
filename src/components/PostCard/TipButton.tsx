@@ -65,7 +65,7 @@ export default function TipButton({ author }: TipButtonProps) {
             <Tooltip
             label = 'Spend Money 💸'
             bg={'white'}
-            color={"blue"}
+            color={"black"}
             border={"1px dashed #A5D6A7"}
             >
                 <MenuButton onClick={fetchUserData} w={"auto"} as={Button} color="green.200" variant={"ghost"} _hover={{
@@ -103,7 +103,7 @@ export default function TipButton({ author }: TipButtonProps) {
                         </MenuItem>
                         <MenuItem
                             bg="white"
-                            _hover={{ bg: "blue.500" }}
+                            _hover={{ bg: "black.500" }}
                             onClick={() => openBaseTipModal('MEMBER')}
                         >
                             <Image alt="member" mr={3} boxSize={"20px"} src="https://member.clinic/images/01-1.jpg" />

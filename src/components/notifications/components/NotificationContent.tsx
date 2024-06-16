@@ -20,7 +20,7 @@ interface NotificationContentProps {
 function getTypeColor(type: string) {
   if (type === "mention") return "yellow"
   if (type === "vote") return "green"
-  if (type === "reply") return "blue"
+  if (type === "reply") return "black"
 }
 
 const tranformNotificationUrl = (url: string) => {

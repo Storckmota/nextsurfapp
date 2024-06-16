@@ -200,12 +200,12 @@ const SideBarMobile = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => vo
                                 justifyContent={"center"}
                                 fontSize={"14px"}
                                 variant={"outline"}
-                                borderColor={"blue.400"}
+                                borderColor={"black.400"}
                                 width={"100%"}
                                 bg="white"
                                 leftIcon={
                                     <Icon
-                                        color={ethAccount.address ? "blue.400" : "white"}
+                                        color={ethAccount.address ? "black.400" : "white"}
                                         as={FaEthereum}
                                     />
                                 }

@@ -202,7 +202,7 @@ export default function EditInfoModal({ isOpen, onClose, user }: EditModalProps)
 
         </ModalBody>
         <Flex align="center" justify="center" direction="column">
-          <Button colorScheme="blue" variant={"outline"} onClick={() => setIsEthSetupModalOpen(true)}> Add Ethereum Wallet Address </Button>
+          <Button colorScheme="black" variant={"outline"} onClick={() => setIsEthSetupModalOpen(true)}> Add Ethereum Wallet Address </Button>
           <Text> {ethAddress} </Text>
         </Flex>
         <ModalFooter>
