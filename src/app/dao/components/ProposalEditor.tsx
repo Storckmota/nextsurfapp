@@ -58,7 +58,7 @@ const ProposalEditor: React.FC<ProposalEditorProps> = ({ value, setValue, title,
             name: 'saveDraftInTxt',
             keyCommand: 'saveDraftInTxt',
             buttonProps: { 'aria-label': 'Save Draft' },
-            icon: (<Tooltip label="Save Draft"><span><FaSave color="limegreen" /></span></Tooltip>),
+            icon: (<Tooltip label="Save Draft"><span><FaSave color="blue" /></span></Tooltip>),
             execute: (state: any, api: any) => {
                 const element = document.createElement('a');
                 const file = new Blob([value], { type: 'text/plain' });
@@ -78,9 +78,9 @@ const ProposalEditor: React.FC<ProposalEditorProps> = ({ value, setValue, title,
             onChange={(e) => setTitle(e.target.value)}
             borderColor={"green.600"}
             border={"2px solid"}
-            color={"limegreen"}
-            _placeholder={{ color: "limegreen", opacity: 0.4 }}
-            focusBorderColor="limegreen"
+            color={"blue"}
+            _placeholder={{ color: "blue", opacity: 0.4 }}
+            focusBorderColor="blue"
         />
         <input {...getInputProps()} id="md-image-upload" style={{ display: 'none' }} />
         {isUploading && <Center><Spinner /></Center>}
@@ -95,7 +95,7 @@ const ProposalEditor: React.FC<ProposalEditorProps> = ({ value, setValue, title,
             height="600px"
             preview="edit"
             style={{
-                border: "2px solid limegreen",
+                border: "2px solid blue",
                 padding: "10px",
                 backgroundColor: "white",
             }}

@@ -373,8 +373,8 @@ const SkateCast = () => {
                 cursor: "pointer",
                 transition: "all 0.2s",
               }} onMouseOver={(e) => {
-                e.currentTarget.style.color = "limegreen";
-                e.currentTarget.style.textShadow = "0 0 10px 0 limegreen";
+                e.currentTarget.style.color = "blue";
+                e.currentTarget.style.textShadow = "0 0 10px 0 blue";
               }} onMouseOut={(e) => {
                 e.currentTarget.style.color = "#ABE4B8";
                 e.currentTarget.style.textShadow = "none";
@@ -388,8 +388,8 @@ const SkateCast = () => {
               isLoading={isUploading}
               // onhover glow effect with shadow and transition the letters only green
               _hover={{
-                color: "limegreen",
-                textShadow: "0 0 10px 0 limegreen",
+                color: "blue",
+                textShadow: "0 0 10px 0 blue",
                 transition: "all 0.2s",
               }}
             >

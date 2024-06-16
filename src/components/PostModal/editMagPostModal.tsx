@@ -179,7 +179,7 @@ export const EditModal = ({ isOpen, onClose, post, username }: editModalProps) =
         <Modal isOpen={isOpen} onClose={onClose} size={{ base: "lg", md: "2xl", lg: "6xl" }} >
             <ModalOverlay />
             {isPreview ? (
-                <ModalContent bg={'white'} border={"1px solid limegreen"}>
+                <ModalContent bg={'white'} border={"1px solid blue"}>
                     <ModalHeader>
                         <Center>Edit Preview</Center>
                     </ModalHeader>
@@ -234,7 +234,7 @@ export const EditModal = ({ isOpen, onClose, post, username }: editModalProps) =
                     </ModalFooter>
                 </ModalContent>
             ) : (
-                <ModalContent bg={'white'} border={"1px solid limegreen"}>
+                <ModalContent bg={'white'} border={"1px solid blue"}>
                     <ModalHeader>
                         <Center>Edit</Center>
                     </ModalHeader>

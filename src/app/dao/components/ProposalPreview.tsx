@@ -15,7 +15,7 @@ const ProposalPreview: React.FC<ProposalPreviewProps> = ({ value }) => {
         <Box
             width="100%"
             height="100%"
-            border="1px solid limegreen"
+            border="1px solid blue"
             minHeight="100%"
         >
             <ReactMarkdown

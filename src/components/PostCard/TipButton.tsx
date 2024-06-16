@@ -65,7 +65,7 @@ export default function TipButton({ author }: TipButtonProps) {
             <Tooltip
             label = 'Spend Money 💸'
             bg={'white'}
-            color={"limegreen"}
+            color={"blue"}
             border={"1px dashed #A5D6A7"}
             >
                 <MenuButton onClick={fetchUserData} w={"auto"} as={Button} color="green.200" variant={"ghost"} _hover={{
