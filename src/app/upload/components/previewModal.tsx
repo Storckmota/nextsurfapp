@@ -128,7 +128,7 @@ const PreviewModal: React.FC<PreviewModalProps> = ({ isOpen, onClose, title, bod
     return (
         <Modal isOpen={isOpen} onClose={onClose} size="xl">
             <ModalOverlay style={{ backdropFilter: "blur(5px)" }} />
-            <ModalContent backgroundColor={"black"} border={'1px solid #A5D6A7'}>
+            <ModalContent backgroundColor={"white"} border={'1px solid #A5D6A7'}>
                 {hasPosted ? (
                     <SocialsModal isOpen={hasPosted} onClose={onClose} postUrl={postLink} content={body} aiSummary={AiSummary} />
                 ) : (

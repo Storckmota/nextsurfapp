@@ -292,7 +292,7 @@ const SkateCast = () => {
       />
       <AvatarList sortedComments={sortedComments} />
 
-      <Box p={4} width={"100%"} bg="black" color="white" {...getRootProps()}>
+      <Box p={4} width={"100%"} bg="white" color="white" {...getRootProps()}>
         <div>
           <Flex>
             <Avatar
@@ -318,12 +318,12 @@ const SkateCast = () => {
                   <Box key={index} position="relative" maxW={100} maxH={100}>
                     <IconButton
                       aria-label="Remove image"
-                      icon={<FaTimes style={{ color: "black", strokeWidth: 1 }} />}
+                      icon={<FaTimes style={{ color: "white", strokeWidth: 1 }} />}
                       size="base"
                       color="white"
                       bg="white"
-                      _hover={{ bg: "white", color: "black" }}
-                      _active={{ bg: "white", color: "black" }}
+                      _hover={{ bg: "white", color: "white" }}
+                      _active={{ bg: "white", color: "white" }}
                       position="absolute"
                       top="0"
                       right="0"
@@ -405,18 +405,18 @@ const SkateCast = () => {
           <MenuButton>
             <IoFilter color="#9AE6B4" />
           </MenuButton>
-          <MenuList bg={"black"} border={"1px solid #A5D6A7"}>
+          <MenuList bg={"white"} border={"1px solid #A5D6A7"}>
             <MenuItem
-              bg={"black"}
+              bg={"white"}
               onClick={() => handleSortChange("chronological")}
             >
               <FaHistory /> <Text ml={2}> Latest</Text>
             </MenuItem>
-            <MenuItem bg={"black"} onClick={() => handleSortChange("payout")}>
+            <MenuItem bg={"white"} onClick={() => handleSortChange("payout")}>
               <FaMoneyBill /> <Text ml={2}>Payout</Text>{" "}
             </MenuItem>
             <MenuItem
-              bg={"black"}
+              bg={"white"}
               onClick={() => handleSortChange("engagement")}
             >
               <FaArrowRightArrowLeft /> <Text ml={2}>Engagement</Text>{" "}

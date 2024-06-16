@@ -32,10 +32,10 @@ export default function AvatarLogin() {
         </Tooltip>
       </MenuButton>
 
-      <MenuList bg="black" >
+      <MenuList bg="white" >
         <MenuItem
-          bg="black"
-          _hover={{ bg: "#A5D6A7", color: "black" }}
+          bg="white"
+          _hover={{ bg: "#A5D6A7", color: "white" }}
           icon={<User size={"16px"} />}
           as={Link}
           href={`/profile/${hiveUser.name}`}
@@ -43,8 +43,8 @@ export default function AvatarLogin() {
           Profile
         </MenuItem>
         <MenuItem
-          _hover={{ bg: "#A5D6A7", color: "black" }}
-          bg="black"
+          _hover={{ bg: "#A5D6A7", color: "white" }}
+          bg="white"
           icon={<FaEthereum size={"16px"} />}
           as={Link}
           href={`/dao`}
@@ -52,8 +52,8 @@ export default function AvatarLogin() {
           Dao
         </MenuItem>
         <MenuItem
-          _hover={{ bg: "#A5D6A7", color: "black" }}
-          bg="black"
+          _hover={{ bg: "#A5D6A7", color: "white" }}
+          bg="white"
           icon={<FaWallet size={"16px"} />}
           as={Link}
           href={`/wallet`}
@@ -61,8 +61,8 @@ export default function AvatarLogin() {
           Wallet
         </MenuItem>
         <MenuItem
-          _hover={{ bg: "#A5D6A7", color: "black" }}
-          bg="black"
+          _hover={{ bg: "#A5D6A7", color: "white" }}
+          bg="white"
           icon={<FaSpeakap size={"16px"} />}
           as={Link}
           href={`/plaza`}
@@ -70,7 +70,7 @@ export default function AvatarLogin() {
           Plaza
         </MenuItem>
         <MenuItem
-          _hover={{ bg: "red", color: "black" }} bg="black" icon={<LogOut size={"16px"} />} onClick={logout}>
+          _hover={{ bg: "red", color: "white" }} bg="white" icon={<LogOut size={"16px"} />} onClick={logout}>
           Logout
         </MenuItem>
       </MenuList>

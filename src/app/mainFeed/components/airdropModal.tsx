@@ -80,7 +80,7 @@ const AirdropModal = ({ sortedComments, isOpen, onClose }: AirdropModalProps) =>
             {showConfetti && <Confetti />}
             <Modal isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay style={{ backdropFilter: "blur(5px)" }} />
-                <ModalContent color="white" w={{ base: "100%", md: "75%" }} bg="black" border="0.6px solid grey" borderRadius="md" mx={4}>
+                <ModalContent color="white" w={{ base: "100%", md: "75%" }} bg="white" border="0.6px solid grey" borderRadius="md" mx={4}>
                     <ModalHeader><Center>Create an Airdrop</Center></ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>

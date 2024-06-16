@@ -16,14 +16,14 @@ const BeneficiariesCard: React.FC<BeneficiariesCardProps> = ({ beneficiariesArra
             <CardHeader>
                 <VStack spacing={4} align="stretch">
                     <Box>
-                        <Text color={"black"}>
+                        <Text color={"white"}>
                             You - {100 - beneficiariesArray.reduce((acc, cur) => acc + Number(cur.weight), 0) / 100}%
                         </Text>
                         <Progress colorScheme="green" size="sm" value={100 - beneficiariesArray.reduce((acc, cur) => acc + Number(cur.weight), 0) / 100} />
                     </Box>
                     {beneficiariesArray.map((beneficiary, index) => (
                         <Box key={index}>
-                            <Text color="black">
+                            <Text color="white">
                                 {beneficiary.account} - {Number(beneficiary.weight) / 100}%
                             </Text>
                             <Progress colorScheme="green" size="sm" value={Number(beneficiary.weight) / 100} />

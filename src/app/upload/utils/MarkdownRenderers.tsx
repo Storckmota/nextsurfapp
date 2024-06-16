@@ -167,7 +167,7 @@ export const MarkdownRenderers = {
     <th
       {...props}
       style={{
-        border: '1px solid black',
+        border: '1px solid white',
         backgroundColor: '#009933',
         padding: '8px',
         fontWeight: 'bold',

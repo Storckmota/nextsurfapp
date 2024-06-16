@@ -44,7 +44,7 @@ const DaoTreasure = () => {
 
     return (
         <Card
-            bg="black"
+            bg="white"
             width={"100%"}
             border={"1px solid grey"}
             borderBottomRadius={'10px'}
@@ -54,7 +54,7 @@ const DaoTreasure = () => {
             <Center>
                 <CardHeader>DAO Treasure
                     <Tooltip
-                        bg={"black"}
+                        bg={"white"}
                         color={"white"}
                         border={"1px solid white"}
                         label={
@@ -89,18 +89,18 @@ const DaoTreasure = () => {
                         <Text fontSize={"18px"} color={"white"}> For DIY </Text>
                         <Divider />
 
-                        <Badge colorScheme='green' bg={"black"} border={"1px solid #A5D6A7"} color='#A5D6A7' fontWeight={"bold"} fontSize={"18px"}>{(totalJazz / 4).toFixed(2)} USD</Badge>
+                        <Badge colorScheme='green' bg={"white"} border={"1px solid #A5D6A7"} color='#A5D6A7' fontWeight={"bold"} fontSize={"18px"}>{(totalJazz / 4).toFixed(2)} USD</Badge>
                     </VStack>
                     <VStack m={5}>
                         <Text fontSize={"18px"} color={"white"}>For Dev</Text>
                         <Divider />
 
-                        <Badge colorScheme='green' bg={"black"} border={"1px solid #A5D6A7"} color='#A5D6A7' fontWeight={"bold"} fontSize={"18px"}>{(totalJazz / 2).toFixed(2)} USD</Badge>
+                        <Badge colorScheme='green' bg={"white"} border={"1px solid #A5D6A7"} color='#A5D6A7' fontWeight={"bold"} fontSize={"18px"}>{(totalJazz / 2).toFixed(2)} USD</Badge>
                     </VStack>
                     <VStack m={5}>
                         <Text fontSize={"18px"} color={"white"}> Sponsors</Text>
                         <Divider />
-                        <Badge colorScheme='green' bg={"black"} border={"1px solid #A5D6A7"} color='#A5D6A7' fontWeight={"bold"} fontSize={"18px"}>{(totalJazz / 4).toFixed(2)} USD </Badge>
+                        <Badge colorScheme='green' bg={"white"} border={"1px solid #A5D6A7"} color='#A5D6A7' fontWeight={"bold"} fontSize={"18px"}>{(totalJazz / 4).toFixed(2)} USD </Badge>
                     </VStack>
                 </HStack>
             </CardBody>

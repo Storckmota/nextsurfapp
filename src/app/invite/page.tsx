@@ -213,7 +213,7 @@ function AccountCreation() {
                     type='login'
                     placeholder="Enter Hive username"
                     backdropBlur={4}
-                    bg={"black"}
+                    bg={"white"}
                     maxW={"375px"}
                     value={desiredUsername}
                     onChange={(e) => setDesiredUsername(e.target.value)}
@@ -222,10 +222,10 @@ function AccountCreation() {
                 />
                 <HStack>
 
-                    <Button colorScheme="yellow" border={"2px solid black"} onClick={handleCheck}>
+                    <Button colorScheme="yellow" border={"2px solid white"} onClick={handleCheck}>
                         Is it available?
                     </Button>
-                    <Flex border={"2px solid yellow"} borderRadius="5px" bg={"black"} p={"5px"} align="center" display={isCheckedOnce ? 'flex' : 'none'}>
+                    <Flex border={"2px solid yellow"} borderRadius="5px" bg={"white"} p={"5px"} align="center" display={isCheckedOnce ? 'flex' : 'none'}>
                         {accountAvailable ? (
                             <Icon as={FaCheck} color="green" />
                         ) : (
@@ -240,7 +240,7 @@ function AccountCreation() {
                 {showSecondForm && (
                     <FormControl>
                         <Center>
-                            <Button leftIcon={<FaKey />} colorScheme="yellow" border={"2px solid black"} onClick={handleGenerateKeys} marginTop={5}>
+                            <Button leftIcon={<FaKey />} colorScheme="yellow" border={"2px solid white"} onClick={handleGenerateKeys} marginTop={5}>
                                 Generate Keys
                             </Button>
                         </Center>
@@ -263,10 +263,10 @@ function AccountCreation() {
                             </Box>
                             <Flex mt={4} width="100%" gap={2} justifyContent="center" marginBottom={5}>
 
-                                <Button leftIcon={<FaKey />} colorScheme="yellow" border={"2px solid black"} onClick={() => copyToClipboard(downloadText)}>
+                                <Button leftIcon={<FaKey />} colorScheme="yellow" border={"2px solid white"} onClick={() => copyToClipboard(downloadText)}>
                                     Copy Keys
                                 </Button>
-                                <Button leftIcon={<FaDownload />} colorScheme="yellow" border={"2px solid black"} onClick={() => {
+                                <Button leftIcon={<FaDownload />} colorScheme="yellow" border={"2px solid white"} onClick={() => {
                                     const element = document.createElement("a");
                                     const file = new Blob([downloadText], { type: 'text/plain' });
                                     element.href = URL.createObjectURL(file);
@@ -289,7 +289,7 @@ function AccountCreation() {
                             </Checkbox>
 
                         </Flex>
-                        <Button w={"100%"} p="20px" colorScheme="yellow" border={"2px solid black"} onClick={handleCreateAccount} margin="10px" isDisabled={areKeysDownloaded ? false : true}>
+                        <Button w={"100%"} p="20px" colorScheme="yellow" border={"2px solid white"} onClick={handleCreateAccount} margin="10px" isDisabled={areKeysDownloaded ? false : true}>
                             Create Account
                         </Button>
                     </FormControl>

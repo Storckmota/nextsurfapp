@@ -115,9 +115,9 @@ const AuthorSearchBar: React.FC<AuthorSearchBarProps> = ({ onSearch }) => {
                             p={2}
                             cursor="pointer"
                             display="flex"
-                            backgroundColor={"black"}
+                            backgroundColor={"white"}
                             alignItems="center"
-                            _hover={{ bg: "#A5D6A7", color: "black" }}
+                            _hover={{ bg: "#A5D6A7", color: "white" }}
                         >
                             <Avatar borderRadius={"5px"} size="sm" src={`https://images.ecency.com/webp/u/${author}/avatar/small`} mr={2} />
                             <Text>{author}</Text>

@@ -18,7 +18,7 @@ const chakraTheme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: "black",
+        bg: "white",
       },
     },
   },

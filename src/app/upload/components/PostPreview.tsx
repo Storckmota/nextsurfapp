@@ -12,7 +12,7 @@ interface PostPreviewProps {
 const PostPreview: React.FC<PostPreviewProps> = ({ postData }) => {
     return (
         <Card
-            bg={"black"}
+            bg={"white"}
             border={"1px solid #A5D6A7"}
             size="sm"
             boxShadow="none"

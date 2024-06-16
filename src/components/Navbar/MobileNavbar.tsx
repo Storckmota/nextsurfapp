@@ -19,7 +19,7 @@ const MobileNavbar = () => {
     };
 
     return (
-        <Box position="fixed" bottom="0" width="100%" bg="black" borderTop="0.6px solid grey" >
+        <Box position="fixed" bottom="0" width="100%" bg="white" borderTop="0.6px solid grey" >
             <Flex m={2} justify="space-between" align="center" >
                 <Box m={2}>
                     <ImMenu size={25} onClick={toggleMenu} color='white' />

@@ -156,7 +156,7 @@ const EthBox: React.FC<EthBoxProps> = ({ onNetWorthChange }) => {
                 <Center>
                     <VStack m={5}>
                         <Box bg="#0fb9fc48" borderRadius="8px" padding="4px 8px">
-                            <Text color={"black"} fontWeight="bold" fontSize={{ base: 24, md: 34 }}>
+                            <Text color={"white"} fontWeight="bold" fontSize={{ base: 24, md: 34 }}>
                                 ${portfolio?.totalNetWorth?.toFixed(2) || 0}
                             </Text>
                         </Box>
@@ -182,8 +182,8 @@ const EthBox: React.FC<EthBoxProps> = ({ onNetWorthChange }) => {
                                         </HStack>
                                     </Box>
                                     <Box>
-                                        <Badge bg={Types.blockchainDictionary[network]?.color || 'black'}>
-                                            <Text color="black" isTruncated flex="1" textAlign="right" fontSize={{ base: 16, md: 18 }}>
+                                        <Badge bg={Types.blockchainDictionary[network]?.color || 'white'}>
+                                            <Text color="white" isTruncated flex="1" textAlign="right" fontSize={{ base: 16, md: 18 }}>
                                                 ${calculateBlockchainTotal(network)?.toFixed(2)}
                                             </Text>
                                         </Badge>

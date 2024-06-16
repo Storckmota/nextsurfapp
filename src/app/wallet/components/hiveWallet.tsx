@@ -143,7 +143,7 @@ const HiveBox: React.FC<HiveBoxProps> = ({ onNetWorthChange }) => {
                     >
                         <Center>
                             <VStack m={5}>
-                                <Box bg="#b32227" border={"2px solid black"} borderRadius="8px" padding="4px 8px">
+                                <Box bg="#b32227" border={"2px solid white"} borderRadius="8px" padding="4px 8px">
                                     <Text fontWeight="bold" fontSize={{ base: 24, md: 34 }} color="#33000a">
                                         ${totalValue.toFixed(2)}
                                     </Text>
@@ -171,11 +171,11 @@ const HiveBox: React.FC<HiveBoxProps> = ({ onNetWorthChange }) => {
                                                 </VStack>
                                             </Center>
                                         </MenuButton>
-                                        <MenuList bg="black" minWidth="100%">
-                                            <MenuItem bg="black" icon={<SendIcon />} _hover={{ bg: "red" }}>
+                                        <MenuList bg="white" minWidth="100%">
+                                            <MenuItem bg="white" icon={<SendIcon />} _hover={{ bg: "red" }}>
                                                 Send Hive
                                             </MenuItem>
-                                            <MenuItem bg="black" icon={<AiOutlineThunderbolt size="28px" />} _hover={{ bg: "red" }}>
+                                            <MenuItem bg="white" icon={<AiOutlineThunderbolt size="28px" />} _hover={{ bg: "red" }}>
                                                 Power Up
                                             </MenuItem>
                                         </MenuList>
@@ -196,11 +196,11 @@ const HiveBox: React.FC<HiveBoxProps> = ({ onNetWorthChange }) => {
                                                 </VStack>
                                             </Center>
                                         </MenuButton>
-                                        <MenuList bg="black">
-                                            <MenuItem bg="black" icon={<SendIcon />} _hover={{ bg: "red" }}>
+                                        <MenuList bg="white">
+                                            <MenuItem bg="white" icon={<SendIcon />} _hover={{ bg: "red" }}>
                                                 Send HBD
                                             </MenuItem>
-                                            <MenuItem bg="black" icon={<BsArrowDownCircleFill size="28px" />} _hover={{ bg: "red" }}>
+                                            <MenuItem bg="white" icon={<BsArrowDownCircleFill size="28px" />} _hover={{ bg: "red" }}>
                                                 Deposit HBD
                                             </MenuItem>
                                         </MenuList>
@@ -223,11 +223,11 @@ const HiveBox: React.FC<HiveBoxProps> = ({ onNetWorthChange }) => {
                                                 </Tooltip>
                                             </Center>
                                         </MenuButton>
-                                        <MenuList bg="black">
-                                            <MenuItem bg="black" icon={<SendIcon />} _hover={{ bg: "red" }}>
+                                        <MenuList bg="white">
+                                            <MenuItem bg="white" icon={<SendIcon />} _hover={{ bg: "red" }}>
                                                 Withdraw HBD
                                             </MenuItem>
-                                            <MenuItem bg="black" icon={<AiOutlineThunderbolt size="28px" />} _hover={{ bg: "red" }}>
+                                            <MenuItem bg="white" icon={<AiOutlineThunderbolt size="28px" />} _hover={{ bg: "red" }}>
                                                 Deposit HBD
                                             </MenuItem>
                                         </MenuList>
@@ -248,11 +248,11 @@ const HiveBox: React.FC<HiveBoxProps> = ({ onNetWorthChange }) => {
                                                 </VStack>
                                             </Center>
                                         </MenuButton>
-                                        <MenuList bg="black">
-                                            <MenuItem bg="black" icon={<SendIcon />} _hover={{ bg: "red" }}>
+                                        <MenuList bg="white">
+                                            <MenuItem bg="white" icon={<SendIcon />} _hover={{ bg: "red" }}>
                                                 Delegate
                                             </MenuItem>
-                                            <MenuItem bg="black" icon={<AiOutlineThunderbolt size="28px" />} _hover={{ bg: "red" }}>
+                                            <MenuItem bg="white" icon={<AiOutlineThunderbolt size="28px" />} _hover={{ bg: "red" }}>
                                                 Power Down
                                             </MenuItem>
                                         </MenuList>

@@ -40,7 +40,7 @@ function ProposalListItem({
         >
             <HStack justifyContent={"space-between"}>
                 <Text color={"white"}>{proposal.title}</Text>
-                <Badge colorScheme='green' bg={"black"} fontSize="18px" color={checkProposalOutcome(proposal).hasWon ? "#A5D6A7" : "red"}>
+                <Badge colorScheme='green' bg={"white"} fontSize="18px" color={checkProposalOutcome(proposal).hasWon ? "#A5D6A7" : "red"}>
                     {checkProposalOutcome(proposal).hasWon ? "Passed" : "Failed"}
                 </Badge>
             </HStack>

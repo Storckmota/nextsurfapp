@@ -90,7 +90,7 @@ export default function Navbar() {
       >
         <DrawerOverlay />
         <DrawerContent
-          bg={"black"}
+          bg={"white"}
           color={"white"}
           borderRight={"1px solid #A5D6A7"}
         >
@@ -161,7 +161,7 @@ export default function Navbar() {
                 variant={"outline"}
                 borderColor={"red.400"}
                 width={"100%"}
-                bg="black"
+                bg="white"
                 leftIcon={
                   <Icon color={hiveUser ? "red.400" : "white"} as={FaHive} />
                 }
@@ -175,7 +175,7 @@ export default function Navbar() {
                 variant={"outline"}
                 borderColor={"blue.400"}
                 width={"100%"}
-                bg="black"
+                bg="white"
                 leftIcon={
                   <Icon
                     color={ethAccount.address ? "blue.400" : "white"}

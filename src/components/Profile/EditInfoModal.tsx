@@ -104,7 +104,7 @@ export default function EditInfoModal({ isOpen, onClose, user }: EditModalProps)
     return (
       <Modal isOpen={isEthSetupModalOpen} onClose={() => setIsEthSetupModalOpen(false)} size="md">
         <ModalOverlay />
-        <ModalContent bg={"black"} border={"0.6px solid grey"}>
+        <ModalContent bg={"white"} border={"0.6px solid grey"}>
           <ModalHeader>Is that your wallet? </ModalHeader>
           <ModalCloseButton />
           <ModalBody>
@@ -125,7 +125,7 @@ export default function EditInfoModal({ isOpen, onClose, user }: EditModalProps)
   return (
     <Modal isOpen={isOpen} onClose={onClose} size="md">
       <ModalOverlay />
-      <ModalContent bg={"black"} border={"0.6px solid grey"}>
+      <ModalContent bg={"white"} border={"0.6px solid grey"}>
         <ModalHeader>Edit Profile</ModalHeader>
         <ModalCloseButton />
         <ModalBody>

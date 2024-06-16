@@ -222,10 +222,10 @@ const TokenSelector = ({ addressDict, setShowConfetti }: TokenSelectorProps) => 
                                 <Image src={tokenDictionary[token]?.tokenLogo} alt={`${token} Logo`} width="50px" mx="auto" my={4} />
                             </MenuButton>
                             <Portal>
-                                <MenuList bg="black" zIndex="9999">
+                                <MenuList bg="white" zIndex="9999">
                                     <MenuItem
-                                        bg="black"
-                                        _hover={{ bg: "green.500", color: "black" }}
+                                        bg="white"
+                                        _hover={{ bg: "green.500", color: "white" }}
                                         onClick={() => {
                                             setToken("SENDIT");
                                             setIsCustomToken(false);
@@ -235,7 +235,7 @@ const TokenSelector = ({ addressDict, setShowConfetti }: TokenSelectorProps) => 
                                         $SENDIT
                                     </MenuItem>
                                     <MenuItem
-                                        bg="black"
+                                        bg="white"
                                         _hover={{ bg: "yellow.500" }}
                                         onClick={() => {
                                             setToken("NOGS");
@@ -246,7 +246,7 @@ const TokenSelector = ({ addressDict, setShowConfetti }: TokenSelectorProps) => 
                                         $NOGS
                                     </MenuItem>
                                     <MenuItem
-                                        bg="black"
+                                        bg="white"
                                         _hover={{ bg: "teal.500" }}
                                         onClick={() => {
                                             setToken("MEMBER");
@@ -257,7 +257,7 @@ const TokenSelector = ({ addressDict, setShowConfetti }: TokenSelectorProps) => 
                                         $MEMBER
                                     </MenuItem>
                                     <MenuItem
-                                        bg="black"
+                                        bg="white"
                                         _hover={{ bg: "purple.500" }}
                                         onClick={() => {
                                             setToken("DEGEN");
@@ -268,8 +268,8 @@ const TokenSelector = ({ addressDict, setShowConfetti }: TokenSelectorProps) => 
                                         $DEGEN
                                     </MenuItem>
                                     <MenuItem
-                                        bg="black"
-                                        _hover={{ bg: "red.500", color: "black" }}
+                                        bg="white"
+                                        _hover={{ bg: "red.500", color: "white" }}
                                         //    onClick={() => alert("We said SOON! bitch!")}
                                         onClick={() => {
                                             setToken("HIVE");

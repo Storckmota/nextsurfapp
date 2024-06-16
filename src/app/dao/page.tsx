@@ -111,7 +111,7 @@ const DaoPage = () => {
     <Box width={"100%"}>
       <br />
       <Box
-        bg="black"
+        bg="white"
         p={4}
         border="1px solid grey"
         borderTopRadius="10px"
@@ -194,7 +194,7 @@ const DaoPage = () => {
                   </Text>
                   <Text color={"white"}>
                     End:
-                    <Badge bg={"black"} colorScheme="green" >
+                    <Badge bg={"white"} colorScheme="green" >
                       {" "}
                       {new Date(mainProposal.end * 1000).toLocaleDateString()}
                     </Badge>

@@ -66,7 +66,7 @@ function LoginModal({
     <Modal isOpen={isOpen} isCentered onClose={onClose}>
       <ModalOverlay />
       <ModalContent
-        bg={"black"}
+        bg={"white"}
         mx={4}
         border={"1.2px solid #A5D6A7"}
         boxShadow={"0 0 20px #A5D6A7"}

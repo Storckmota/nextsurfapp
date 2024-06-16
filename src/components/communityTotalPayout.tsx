@@ -85,7 +85,7 @@ function CommunityTotalPayout() {
               color={"lightgreen"}
               fontSize="25px"
               fontWeight="bold"
-              textShadow={"1px 1px 15px black"}
+              textShadow={"1px 1px 15px white"}
               gap={1}
               display={"flex"}
             >
@@ -95,7 +95,7 @@ function CommunityTotalPayout() {
               color={"#A5D6A7"}
               fontSize="12px"
               fontWeight="bold"
-              textShadow={"1px 1px 15px black"}
+              textShadow={"1px 1px 15px white"}
             >
               Paid to Skaters
             </Text>

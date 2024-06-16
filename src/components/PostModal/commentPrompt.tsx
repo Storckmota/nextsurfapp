@@ -174,7 +174,7 @@ const CommandPrompt = ({ post, addComment }: CommandPromptProps) => {
           style={{
             border: "none",
             padding: "10px",
-            backgroundColor: "black",
+            backgroundColor: "white",
           }}
         />
         <Flex justifyContent={"flex-end"}>

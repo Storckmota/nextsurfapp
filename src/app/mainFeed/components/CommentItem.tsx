@@ -130,7 +130,7 @@ const CommentItem = ({
   const [visiblePosts, setVisiblePosts] = useState(5);
 
   return (
-    <Box key={comment.id} p={4} width="100%" bg="black" color="white">
+    <Box key={comment.id} p={4} width="100%" bg="white" color="white">
       <ReplyModal
         comment={comment}
         isOpen={isModalOpen}

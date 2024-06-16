@@ -42,7 +42,7 @@ const VideoPartsForm = ({ skater, onNewVideoPart, isOpen, onClose }: VideoPartsF
     return (
         <Modal isOpen={isOpen} onClose={onClose}>
             <ModalOverlay />
-            <ModalContent bg={"black"} border={"0.6px solid grey"}>
+            <ModalContent bg={"white"} border={"0.6px solid grey"}>
                 <ModalHeader>
                     <Center>
 

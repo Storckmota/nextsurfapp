@@ -82,19 +82,19 @@ export function PostModal({ isOpen, onClose }: PostModalInterface) {
   return (
     <Modal isOpen={isOpen} onClose={onClose} size={{ base: "lg", md: "2xl", lg: "6xl" }}>
       <ModalOverlay style={{ backdropFilter: "blur(5px)" }} />
-      <ModalContent bg="black" border="1.4px solid #A5D6A7" borderRadius={0} p={4} w="100%">
+      <ModalContent bg="white" border="1.4px solid #A5D6A7" borderRadius={0} p={4} w="100%">
         <ModalHeader><Header variant="open" /></ModalHeader>
         <ModalCloseButton mr={4} mt={2} color="red" />
         <ModalBody display="flex" flexDir={{ base: "column", lg: "row" }} minH="60vh" gap={6}>
-          <Box bg="black" flex={0} p={0} border="0px solid #A5D6A7" borderRadius={0} minW="50%">
+          <Box bg="white" flex={0} p={0} border="0px solid #A5D6A7" borderRadius={0} minW="50%">
             <Menu>
               <MenuButton><FaGlobe /> </MenuButton>
-              <MenuList bg={'black'}>
-                <MenuItem onClick={() => handleTranslation("english")} bg={'black'} color={"white"}>English</MenuItem>
-                <MenuItem onClick={() => handleTranslation("portuguese")} bg={'black'} color={"white"}>Portuguese</MenuItem>
-                <MenuItem onClick={() => handleTranslation("spanish")} bg={'black'} color={"white"}>Spanish</MenuItem>
-                <MenuItem onClick={() => handleTranslation("french")} bg={'black'} color={"white"}>French</MenuItem>
-                <MenuItem onClick={() => handleTranslation("greek")} bg={'black'} color={"white"}>Greek</MenuItem>
+              <MenuList bg={'white'}>
+                <MenuItem onClick={() => handleTranslation("english")} bg={'white'} color={"white"}>English</MenuItem>
+                <MenuItem onClick={() => handleTranslation("portuguese")} bg={'white'} color={"white"}>Portuguese</MenuItem>
+                <MenuItem onClick={() => handleTranslation("spanish")} bg={'white'} color={"white"}>Spanish</MenuItem>
+                <MenuItem onClick={() => handleTranslation("french")} bg={'white'} color={"white"}>French</MenuItem>
+                <MenuItem onClick={() => handleTranslation("greek")} bg={'white'} color={"white"}>Greek</MenuItem>
               </MenuList>
             </Menu>
 

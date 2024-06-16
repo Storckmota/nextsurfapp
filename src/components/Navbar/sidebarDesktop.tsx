@@ -97,7 +97,7 @@ const SidebarDesktop = () => {
     <>
       <LoginModal isOpen={isLoginOpen} onClose={onLoginClose} />
       <Box
-        bg="Black"
+        bg="white"
         w={{ base: "full", md: 280 }}
         px={2}
         py={8}
@@ -207,7 +207,7 @@ const SidebarDesktop = () => {
             borderColor={"red.400"}
             width={"100%"}
             color={"white"}
-            bg="black"
+            bg="white"
             leftIcon={
               <Icon color={hiveUser ? "red.400" : "white"} as={FaHive} />
             }
@@ -221,7 +221,7 @@ const SidebarDesktop = () => {
             variant={"outline"}
             borderColor={"blue.400"}
             width={"100%"}
-            bg="black"
+            bg="white"
             color={"white"}
             leftIcon={
               <Icon

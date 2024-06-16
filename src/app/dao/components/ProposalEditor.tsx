@@ -97,7 +97,7 @@ const ProposalEditor: React.FC<ProposalEditorProps> = ({ value, setValue, title,
             style={{
                 border: "2px solid limegreen",
                 padding: "10px",
-                backgroundColor: "black",
+                backgroundColor: "white",
             }}
         />
     </Box>

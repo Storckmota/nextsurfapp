@@ -24,7 +24,7 @@ const AvatarMediaModal = ({
     return (
         <Modal isOpen={isOpen} onClose={onClose} size="full">
             <ModalOverlay filter="blur(8px)" />
-            <ModalContent bg={"black"}>
+            <ModalContent bg={"white"}>
                 <ModalHeader>Media</ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>

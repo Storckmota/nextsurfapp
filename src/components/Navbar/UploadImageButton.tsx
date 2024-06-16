@@ -67,16 +67,16 @@ const UploadImageButton: React.FC = () => {
                 onChange={handleFileChange}
             />
             <IconButton
-                border="1px solid black"
+                border="1px solid white"
                 p={5}
                 aria-label="camera"
                 onClick={hiveUser ? handleCameraClick : () => setIsLoginModalOpen(true)}
-                icon={hiveUser ? <GiVideoCamera color="black" size={45} /> : <SlLogin color="black" size={45} />}
+                icon={hiveUser ? <GiVideoCamera color="white" size={45} /> : <SlLogin color="white" size={45} />}
                 isRound
                 size="lg"
                 bg="limegreen"
                 _hover={{ bg: 'limegreen', transform: 'scale(1.1)', transition: '0.3s' }}
-                color="black"
+                color="white"
             />
         </>
     );

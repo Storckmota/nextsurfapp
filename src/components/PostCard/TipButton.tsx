@@ -64,7 +64,7 @@ export default function TipButton({ author }: TipButtonProps) {
         <Menu>
             <Tooltip
             label = 'Spend Money 💸'
-            bg={'black'}
+            bg={'white'}
             color={"limegreen"}
             border={"1px dashed #A5D6A7"}
             >
@@ -74,10 +74,10 @@ export default function TipButton({ author }: TipButtonProps) {
                     ⌐◨-◨
                 </MenuButton>
             </Tooltip>
-            <MenuList bg="black">
+            <MenuList bg="white">
                 <MenuItem
-                    bg="black"
-                    _hover={{ bg: "red.500", color: "black" }}
+                    bg="white"
+                    _hover={{ bg: "red.500", color: "white" }}
                     onClick={handleHiveTipClick}
                 >
                     <Image alt="hive-logo" mr={3} boxSize={"20px"} src="https://cryptologos.cc/logos/hive-blockchain-hive-logo.png" />
@@ -86,15 +86,15 @@ export default function TipButton({ author }: TipButtonProps) {
                 {isUserEthWalletSet && (
                     <>
                         <MenuItem
-                            bg="black"
-                            _hover={{ bg: "green.500", color: "black" }}
+                            bg="white"
+                            _hover={{ bg: "green.500", color: "white" }}
                             onClick={() => openBaseTipModal('SENDIT')}
                         >
                             <Image alt="sendit" mr={3} boxSize={"20px"} src="https://sendit.city/assets/images/image03.jpg?v=c141f3fc" />
                             $SENDIT
                         </MenuItem>
                         <MenuItem
-                            bg="black"
+                            bg="white"
                             _hover={{ bg: "yellow.500" }}
                             onClick={() => openBaseTipModal('NOGS')}
                         >
@@ -102,7 +102,7 @@ export default function TipButton({ author }: TipButtonProps) {
                             $NOGS
                         </MenuItem>
                         <MenuItem
-                            bg="black"
+                            bg="white"
                             _hover={{ bg: "blue.500" }}
                             onClick={() => openBaseTipModal('MEMBER')}
                         >

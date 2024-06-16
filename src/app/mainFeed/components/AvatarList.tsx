@@ -26,7 +26,7 @@ const AvatarList = ({ sortedComments }: AvatarListProps) => {
         <Link href={"/invite"}>
           <Tooltip
             label={"Invite someone cool enough"}
-            bg={"black"}
+            bg={"white"}
             color={"#A5D6A7"}
             border={"1px dashed #A5D6A7"}
           >
@@ -35,7 +35,7 @@ const AvatarList = ({ sortedComments }: AvatarListProps) => {
               border={"1px solid white"}
               name="+"
               boxSize={12}
-              bg="black"
+              bg="white"
               src="/loading.gif"
               loading="lazy"
               borderRadius={100}
@@ -61,7 +61,7 @@ const AvatarList = ({ sortedComments }: AvatarListProps) => {
         {isOpen && <AirdropModal sortedComments={sortedComments} isOpen={isOpen} onClose={handleCloseModal} />}
         <Tooltip
           label={"Create Airdrop"}
-          bg={"black"}
+          bg={"white"}
           color={"gold"}
           border={"1px dashed gold"}
         >
@@ -70,7 +70,7 @@ const AvatarList = ({ sortedComments }: AvatarListProps) => {
             border={"1px solid white"}
             name="airdrop"
             boxSize={12}
-            bg="black"
+            bg="white"
             src="https://i.ibb.co/cgykmcc/image.png"
             loading="lazy"
             borderRadius={100}

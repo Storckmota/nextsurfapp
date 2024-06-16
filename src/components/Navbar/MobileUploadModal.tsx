@@ -149,7 +149,7 @@ const MobileUploadModal: React.FC<MobileUploadModalProps> = ({ isOpen, onClose, 
     return (
         <Modal isOpen={isOpen} onClose={onClose} isCentered>
             <ModalOverlay />
-            <ModalContent w={{ base: "100%", md: "75%" }} bg="black" border="0.6px solid grey" borderRadius="md" mx={4}>
+            <ModalContent w={{ base: "100%", md: "75%" }} bg="white" border="0.6px solid grey" borderRadius="md" mx={4}>
                 <ModalHeader>
                     <Center>
                         <Text color={'green.200'}>

@@ -249,7 +249,7 @@ export default function Upload() {
                             style={{
                                 border: "1px solid #A5D6A7",
                                 padding: "10px",
-                                backgroundColor: "black",
+                                backgroundColor: "white",
                             }}
                         />
                     </Box>
@@ -260,7 +260,7 @@ export default function Upload() {
                             <Center>
                                 <VStack padding={5}>
 
-                                    <Text fontSize={"22px"} color="black">Select Thumbnail</Text>
+                                    <Text fontSize={"22px"} color="white">Select Thumbnail</Text>
                                     <Flex flexWrap="wrap">{renderThumbnailOptions()}</Flex>
                                 </VStack>
                             </Center>
@@ -272,7 +272,7 @@ export default function Upload() {
                             border={"1px solid #A5D6A7"}
                             onClick={() => setShowAdvanced(!showAdvanced)}>
                             <Center>
-                                <Text fontSize={"22px"} color="black">
+                                <Text fontSize={"22px"} color="white">
                                     Show Advanced Options
                                 </Text>
                             </Center>
@@ -344,7 +344,7 @@ export default function Upload() {
                                             <Tooltip
                                                 hasArrow
                                                 bg="gray.300"
-                                                color="black"
+                                                color="white"
                                                 placement="top"
                                                 isOpen={showTooltip}
                                                 label={`${beneficiary.percentage}%`}
@@ -387,7 +387,7 @@ export default function Upload() {
                                                 <Tooltip
                                                     hasArrow
                                                     bg="gray.300"
-                                                    color="black"
+                                                    color="white"
                                                     placement="top"
                                                     isOpen={showTooltip}
                                                     label={`${beneficiary.percentage}%`}
